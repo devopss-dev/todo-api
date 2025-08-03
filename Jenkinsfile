@@ -2,8 +2,8 @@ pipeline {
   agent any
   stages {
     stage('Clone') {
-      steps {
-        git 'https://github.com/your-username/todo-api.git'
+       steps {
+        git 'https://github.com/devopss-dev/todo-api.git'
       }
     }
     stage('Build Image') {
