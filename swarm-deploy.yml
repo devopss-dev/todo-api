@@ -1,7 +1,7 @@
 version: "3"
 services:
   todo-api:
-    image: todo-api:latest
+    image: asmiya/todo-api:latest
     ports:
       - "8081:8081"
     deploy:
